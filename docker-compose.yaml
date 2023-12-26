@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  tts-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      DISCORD_TOKEN:
+    restart: always
+    
